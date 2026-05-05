@@ -7,7 +7,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 # 1. 연결 설정 (아까 만든 스프레드시트 URL을 따옴표 안에 넣어주세요!)
-SHEET_URL = "여기에_스프레드시트_전체_주소를_붙여넣으세요"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1tKqXEKZF2rtLT6b8dMwJjeCAvuv1K7E4tK-OjUchmQs/edit?gid=0#gid=0"
 
 st.set_page_config(page_title="AI LEADER 자동화 시스템", page_icon="🚀", layout="wide")
 
